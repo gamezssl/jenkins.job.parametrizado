@@ -1,4 +1,4 @@
-job('ejemplo2-job-DSL') {
+job('/Learning-jobs/Udemy-Jenkins-Cero-Experto-2024/5-Jobs-DSL/Ejemplos/7-ejemplo-DSL-job-scm') {
 	description('Job DSL de ejemplo para el curso de Jenkins')
   	scm {
       		git('https://github.com/macloujulian/jenkins.job.parametrizado.git', 'main') { node ->
