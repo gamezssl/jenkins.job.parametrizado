@@ -1,4 +1,4 @@
-job('ejemplo3-job-DSL') {
+job('/Learning-jobs/Udemy-Jenkins-Cero-Experto-2024/5-Jobs-DSL/Ejemplos/8-Ejemplo-DSL-job-github-webhook') {
 	description('Job DSL de ejemplo para el curso de Jenkins')
   	scm {
       		git('https://github.com/macloujulian/jenkins.job.parametrizado.git', 'main') { node ->
